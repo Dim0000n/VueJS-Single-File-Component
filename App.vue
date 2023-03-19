@@ -10,7 +10,7 @@
 <!--Script-->
 <script>
 //import TodoList-component
-import TodoList from 'components/TodoList.vue'
+import TodoList from './components/TodoList.vue'
 
 //export TodoList-component
 export default {
@@ -27,4 +27,17 @@ export default {
     box-sizing: border-box;
 }
 
+#app {
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: $vue-blue;
+}
+
+h1 {
+    text-align: center;
+}
 </style>
